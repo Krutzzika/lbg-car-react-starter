@@ -4,3 +4,4 @@ RUN apt install -y npm
 RUN npm install --global yarn
 COPY . ./home/App
 RUN  cd /home/App && npm install
+CMD yarn start
